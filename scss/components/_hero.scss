@@ -1,0 +1,23 @@
+.hero {
+    font-family: PT Sans;
+
+    &__bottom{
+        img {
+            max-width: 1920px;
+            height: 810px;
+        }
+    }
+}
+
+
+// @media screen and (max-width: 470px){
+//     .hero{
+//         &__content {
+//             display: flex;
+//             img {
+//                 max-width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//     }
+// }

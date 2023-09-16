@@ -1,0 +1,29 @@
+.brend {
+    width: 1920px;
+    height: 362px;
+
+    &__item {
+        width: 1920px;
+        height: 362px;
+        background: #0F0F0F;
+
+        h1 {
+            text-align: center;
+            font-family: Playfair Display;
+            text-transform: uppercase;
+            padding: 60px 815px 0 816px;
+            @include fontStyle (#FFF, 36px, 500)
+        }
+
+        hr {
+            width: 120px;
+            margin-top: 40px;
+        }
+    }
+
+    &__item-imgs {
+        display: flex;
+        padding: 40px 405px 80px 405px;
+        gap: 30px;
+    }
+}

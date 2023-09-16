@@ -1,0 +1,71 @@
+.season {
+    font-family: Playfair Display;
+    width: 1920px;
+    height: 730px;
+
+    &__content{
+        display: flex;
+    }
+
+    &__title {
+        width: 1040px;
+        height: 730px;
+        background: #000;
+        font-family: Playfair Display;
+        position: absolute;
+    }
+
+    &__item-text{
+        position: relative;
+        z-index: 10;
+
+        h1{
+          text-align: center;
+            text-transform: uppercase;
+            margin: 93px 332px 50px 332px;
+            @include fontStyle (#FFF, 36px, 700)
+        }
+
+        hr {
+            width: 126px;
+        }
+    }
+
+    &__items {
+        display: flex;
+        gap: 50px;
+        margin: 50px 80px 25px 80px;
+    }
+
+    &__item {
+        background: #191B1C;
+        width: 260px;
+        height: 325px;
+
+        img {
+            margin: 55px 22px 56px 23px;
+        }
+
+        h2 {
+            font-family: Playfair Display;
+            text-transform: uppercase;
+            margin-top: 25px;
+            @include fontStyle(#FFF, 18px);
+        }
+
+        p {
+            font-family: Playfair Display;
+            text-transform: uppercase;
+            margin-top: 10px;
+            @include fontStyle(#D0D0D0, 16px);
+        }
+    }
+
+    &__img{
+        margin-left: 1040px;
+        img{
+            width: 880px;
+            height: 730px;
+        }
+    }
+}

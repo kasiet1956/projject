@@ -1,0 +1,56 @@
+.collection {
+    max-width: 1920px;
+    height: 600px;
+
+    &__content {
+    display: flex;
+    }
+
+    &__img {
+        img{
+            max-width: 880px;
+            height: 600px;
+        }
+    }
+
+    &__item {
+        background: #000;
+        width: 1040px;
+        height: 600px;
+
+        h2 {
+            text-align: center;
+            font-family: Playfair Display;
+            text-transform: uppercase;
+            margin: 100px 332px 40px 332px;
+            @include fontStyle(#FFF, 36px);
+        }
+
+        hr {
+            width: 120px;
+        }
+
+        p {
+            text-align: center;
+            font-family: PT Sans;
+            line-height: 150%; /* 21px */
+            width: 471px;
+            margin: 40px 284px 61px 285px;
+            @include fontStyle(#FFF, 14px);
+        }
+
+        span {
+            text-align: center;
+            font-family: PT Sans;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            border: 1px solid #FFF;
+            display: inline-flex;
+            padding: 12px 28px;
+            gap: 10px;
+            margin-left: 365px;
+            margin-bottom: 100px;
+            @include fontStyle(#FFF, 18px);
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.header {
+    font-family: PT Sans;
+    width: 1920px;
+
+    &__logo {
+        background: #000;
+        height: 44px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 16px;
+            height: 16px;
+            margin: 14px 15px 14px 405px;
+        }
+
+        h1 {
+            @include fontStyle (#969696, 12px)
+        }
+    }
+
+    &__logo-2{
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 14px;
+            height: 14px;
+            margin: 15px 10px 15px 593px;
+        }
+
+        h2 {
+            @include fontStyle (#969696, 12px)
+        }
+    }
+
+    &__title {
+        width: 1920px;
+        height: 80px;
+        background: #0F0F0F;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 104px;
+            height: 49px;
+            margin: 15px 469px 16px 405px;
+        }
+    }
+
+    &__title-2 {
+        width: 136px;
+        height: 80px;
+        background: #1F1F1F;
+        text-align: center;
+        display: flex;
+
+        h1 {
+            text-transform: uppercase;
+            margin: 31px 20px 31px 20px;
+            @include fontStyle (#FFF, 14px)
+        }
+
+        h2 {
+            text-transform: uppercase;
+            margin: 31px 20px 31px 20px;
+            @include fontStyle (#969696, 14px)
+        }
+
+        p {
+            text-transform: uppercase;
+            margin: 31px 30px 31px 20px;
+            @include fontStyle (#969696, 14px)
+        }
+
+        img{
+            width: 22px;
+            height: 22px;
+            margin: 29px 20px 29px 30px;
+        }
+
+        img header5{
+            width: 22px;
+            height: 22px;
+            margin: 29px 405px 29px 20px;
+        }
+    }
+}
+
